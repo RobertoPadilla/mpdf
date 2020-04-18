@@ -9,5 +9,22 @@
 </head>
 <body>
 	<h1 class="text-center text-white mt-3">Here we can make a PDF file</h1>
+	<div class="row mt-5" style="max-width: 100%">
+		<div class="col"></div>
+		<div class="col-4 text-white">
+			<form method="post" action="http://mpdf.test/pdf">
+				<div class="form-group">
+					<label for="formGroupExampleInput">New contractor</label>
+					<input type="text" class="form-control" id="formContractorName" name="formContractorName" placeholder="Full name" required>
+				</div>
+				<div class="form-group">
+					<label for="formGroupExampleInput2">Responsable</label>
+					<input type="text" class="form-control" id="formResponsableName" name="formResponsableName" placeholder="Full name" required>
+				</div>
+				<button type="submit" class="btn btn-success float-right mt-3">Generate PDF</button>
+			</form>
+		</div>
+		<div class="col"></div>
+	</div>
 </body>
 </html>
