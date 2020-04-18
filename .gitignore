@@ -125,3 +125,10 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
+
+# SASS
+
+public/.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
