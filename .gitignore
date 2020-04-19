@@ -127,7 +127,7 @@ nb-configuration.xml
 /.phpunit.*.cache
 
 # SASS
-
+.sass-cache/
 public/.sass-cache/
 *.css.map
 *.sass.map
