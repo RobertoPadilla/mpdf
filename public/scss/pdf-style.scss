@@ -3,12 +3,14 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-
+// Aqui podemos definir el estilo que llevará todo el documento
 @page {
-  
   margin: 0;
   background-image: url('images/logo/laravel.svg');
 }
+// De la siguiente forma hacemos a una clase una página del documento, el nombre
+// es opcional, en este caso es "page1" y aqui es donde se define si llevará
+// encabezados o no, para no colocar alguno se escribe "_blank"
 @page page1 {
   margin-header: 0; 
   header: html_MyHeader1;
@@ -20,12 +22,15 @@ body{
   header: _blank;
   footer: html_MyFooter1;
 }
+// Con el atributo "page", le asignamos la correspondiente página a la clase
 .page1 {
   page: page1;
 }
 .page2 {
   page: page2;
 }
+// Estos son los estilos de mis encabezados, el cual al footer no le he podido
+// poner la imagen de fondo.
 .header, .footer{
   height: 4%;
   background-color: rgb(26, 26, 61);

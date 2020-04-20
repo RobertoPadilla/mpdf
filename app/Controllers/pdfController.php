@@ -6,7 +6,12 @@ class pdfController extends BaseController
 	{
     $data['contractor'] = $this->request->getPost('formContractorName');
     $data['responsable'] = $this->request->getPost('formResponsableName');
-		return view('pdf', $data); //this line, after finishing design page, It will be included on the function writeHTML from MPDF 
+		header("Content-type:application/pdf");
+		$html = view('pdf', $data);
+		$mpdf = new \Mpdf\Mpdf(['setAutoTopMargin' => 'stretch']);
+		$mpdf->WriteHTML($html);
+		$mpdf->Output();
+		exit;
 	}
 
 	//--------------------------------------------------------------------
