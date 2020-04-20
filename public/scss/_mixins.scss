@@ -1,0 +1,6 @@
+@mixin firmas($float) {
+  height: 170px; 
+  width: 40%; 
+  float: $float; 
+  border-bottom: 1px solid black;
+}

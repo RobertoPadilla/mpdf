@@ -1,0 +1,62 @@
+@import "mixins";
+
+@page {
+  background-image: url('images/logo/laravel.svg');
+}
+@page page1 {
+  margin-header: 0; 
+  header: html_MyHeader1;
+}
+@page page2 {
+  margin-footer: 0; 
+  footer: html_MyFooter1;
+}
+.page1 {
+  page: page1;
+}
+.page2 {
+  page: page2;
+}
+.header, .footer{
+  height: 4%;
+  background-color: rgb(26, 26, 61);
+  background-image: url('images/logo/laravel.svg');
+}
+
+.firmaR{
+  @include firmas(left);
+}
+
+.firmaC{
+  @include firmas(right);
+}
+
+.imagenFirma{
+  width: 100%;
+  max-height: 170px;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-justify{
+  text-align: justify;
+}
+
+@for $i from 0 through 5 {
+  .m-#{$i} {
+    margin: 5px * $i;
+  }
+  .mt-#{$i} {
+    margin-top: 5px * $i;
+  }
+  .mb-#{$i} {
+    margin-bottom: 5px * $i;
+  }
+  .ml-#{$i} {
+    margin-left: 5px * $i;
+  }
+  .mr-#{$i} {
+    margin-right: 5px * $i;
+  }
+}
