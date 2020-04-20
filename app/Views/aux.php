@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/pdf-style.css">
   <title>Contrato</title>
 </head>
 <body>
-<htmlpageheader name="MyHeader1">
-    <div class="header"></div>
-</htmlpageheader>
 <htmlpagefooter name="MyFooter1">
     <div class="footer"></div>
 </htmlpagefooter>
-  <div class="page1">
-  <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-  <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum ipsa animi, iure id aut architecto esse. Reprehenderit hic autem sequi libero quasi minima sapiente, exercitationem unde obcaecati deserunt accusantium.
+<htmlpageheader name="MyHeader1">
+    <div class="header"></div>
+</htmlpageheader>
+  <div class="page1 mx-5">
+    <h1 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum ipsa animi, iure id aut architecto esse. Reprehenderit hic autem sequi libero quasi minima sapiente, exercitationem unde obcaecati deserunt accusantium.
   Dicta pariatur sunt aspernatur ea illum natus, autem provident, mollitia, placeat at esse? Voluptates, labore accusamus. Rerum, quibusdam nam fugit consequatur perferendis voluptatibus veniam eum cum temporibus magnam reprehenderit corporis!
   Asperiores voluptas magni aspernatur quisquam dolorem dolore fuga nulla, molestias, perferendis natus distinctio cumque quam incidunt! Commodi officiis, tempora soluta at ipsam quisquam in explicabo maiores esse cum iure cupiditate.
   Repellat, eaque minus. Quod, dolorem omnis magni corrupti expedita mollitia fugit? Autem magnam, omnis unde deleniti at est fugit quis vel! Eligendi voluptatibus porro enim quidem tenetur iste facere illo?
@@ -33,9 +34,9 @@
   Sequi fugiat atque sint, consequatur nesciunt quam doloremque illo labore dignissimos, et rerum. Natus consequatur dicta porro, accusantium recusandae quisquam laboriosam deleniti minus vel, fuga ea blanditiis officiis delectus tempore.
   Exercitationem, pariatur amet quam officiis esse quo, nam ratione non voluptatem repellendus adipisci id assumenda ducimus beatae porro, blanditiis placeat sapiente praesentium ipsam? Ullam et incidunt nam eaque, cupiditate rerum.
   Quaerat inventore velit illo maiores culpa sapiente nam, vitae dicta aliquid natus enim soluta nihil laudantium nisi dolores numquam perferendis sed ducimus sit deleniti autem beatae laboriosam ratione. Sunt, molestiae.
-  </p>
+    </p>
   </div>
-  <div class="page2">
+  <div class="page2 mx-5">
     <h1 class="text-center">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
     <p class="text-justify">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet atque sint sunt cupiditate laboriosam labore enim obcaecati, repellat voluptatum quos corporis quas odit inventore? Necessitatibus error unde consequuntur obcaecati fugiat?
@@ -53,15 +54,15 @@
       Ipsum repudiandae odit impedit sunt laborum explicabo error, rerum cumque nesciunt incidunt ea dolorum natus. Id suscipit optio cupiditate possimus vitae, libero culpa harum aspernatur, eum totam modi aperiam. Accusamus.
       Minima tempore quisquam atque voluptates molestias omnis aperiam molestiae hic. Dolore veritatis distinctio dolores natus, sunt inventore excepturi quibusdam nemo iure deleniti quisquam in aliquam qui expedita quia corporis maiores.
     </p>
-  </div>
-  <div class="firmas mt-5">
-  <div class="firmaR">
-    <h3 class="text-center">Roberto Ivan Padilla Cano</h3>
-    <img class="imagenFirma" src="../privateFiles/firmas/Alejandro.png" alt="">
-  </div>
-  <div class="firmaC">
-    <h3 class="text-center">Roberto Ivan Padilla Cano</h3>
-  </div>
+    <div class="firmas mt-5">
+      <div class="firmaR">
+        <h3 class="text-center">Roberto Ivan Padilla Cano</h3>
+        <img class="imagenFirma" src="../privateFiles/firmas/Alejandro.png" alt="">
+      </div>
+      <div class="firmaC">
+        <h3 class="text-center">Roberto Ivan Padilla Cano</h3>
+      </div>
+    </div>
   </div>
 </body>
 </html>

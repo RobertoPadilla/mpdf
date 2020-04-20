@@ -1,14 +1,23 @@
 @import "mixins";
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 @page {
+  
+  margin: 0;
   background-image: url('images/logo/laravel.svg');
 }
 @page page1 {
   margin-header: 0; 
   header: html_MyHeader1;
+  footer: _blank;
 }
 @page page2 {
+  margin-top: 5%;
   margin-footer: 0; 
+  header: _blank;
   footer: html_MyFooter1;
 }
 .page1 {
@@ -45,18 +54,24 @@
 
 @for $i from 0 through 5 {
   .m-#{$i} {
-    margin: 5px * $i;
+    margin: 10px * $i;
   }
   .mt-#{$i} {
-    margin-top: 5px * $i;
+    margin-top: 10px * $i;
   }
   .mb-#{$i} {
-    margin-bottom: 5px * $i;
+    margin-bottom: 10px * $i;
   }
   .ml-#{$i} {
-    margin-left: 5px * $i;
+    margin-left: 10px * $i;
   }
   .mr-#{$i} {
-    margin-right: 5px * $i;
+    margin-right: 10px * $i;
+  }
+  .mx-#{$i} {
+    margin: 0px 10px * $i;
+  }
+  .my-#{$i} {
+    margin: 10px * $i 0px;
   }
 }
